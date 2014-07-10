@@ -1,0 +1,41 @@
+{
+  "name": "conveyor",
+  "version": "0.0.0",
+  "main": "lib/conveyor.js",
+  "description": "Simple synchronous job runner",
+  "homepage": "https://github.com/timkendall/conveyor",
+  "bugs": "https://github.com/timkendall/conveyor/issues",
+  "author": {
+    "name": "Timothy Kendall",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timkendall/conveyor"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "conveyor",
+    "jobs",
+    " runner",
+    " synchronou",
+    " queue"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1"
+  }
+}
